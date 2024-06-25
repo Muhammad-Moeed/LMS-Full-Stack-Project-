@@ -1,0 +1,276 @@
+/* Dashboared Tecaher + student */
+*{
+    box-sizing: border-box;
+}
+html, body{
+    overflow-x: hidden;
+    height: 100%;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 40px;
+    width: 100%;
+    background-color:white;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 10px #000042;
+}
+
+
+p{
+    margin-left: 20px;
+    margin-top: 5px;
+    align-items: center;
+    display: flex;
+}
+
+#btn{
+    margin-left: 900px; 
+    margin-top: 3px;
+}
+
+/* .main{
+    height: 100%;
+    margin-top: 40px;
+    padding: 10px, 15px;
+    position: absolute;
+    left: 380px;
+} */
+
+h3{
+    margin-left: 400px;
+    color:#000042;
+    font-weight: bold;
+
+}
+
+.sidebar{
+    width: 150px;
+    height: 100%;
+    background-color: #000042;
+    position: fixed;
+    margin-top: 40px;
+    left: 0;
+    top: 0;
+    display: flex;
+}
+
+
+.tsidebar{
+    width: 200px;
+    height: 100%;
+    background-color: #000042;
+    position: fixed;
+    margin-top: 40px;
+    left: 0;
+    top: 0;
+    display: flex;
+}
+
+.menu ul{
+    margin-top: 80px;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    display: block;
+    padding: 10px;
+    font-weight: bold ;
+   
+ } 
+
+
+ 
+.menu a:hover{
+    color:aqua;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    border: 1px solid white;
+}
+
+
+.tmenu ul{
+    margin-top: 80px;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+
+.tmenu a {
+   text-decoration: none;
+   color:white;
+   font-family:'Times New Roman', Times, serif;
+   display: block;
+   padding: 10px;
+   font-weight: bold ;
+  
+} 
+
+
+ .tmenu a:hover{
+    color:aqua;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    border: 1px solid white;
+}
+
+
+
+.fa-bars{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.fa-xmark{
+    margin-top: 10px;
+    font-size: 26px;
+    position: relative;
+    margin-left: 20px;
+    cursor: pointer;
+    color: white;
+
+}
+
+.fa-bars:hover{
+   color:#000042;
+
+}
+.fa-xmark:hover{
+    color:aqua;
+ }
+
+ #table{
+    margin-left: 80px;
+    margin-top: 80px !important;
+    
+ }
+
+ /* My Courses */
+ .courses{
+    margin-right: 600px;
+ }
+
+ .courses ul{
+    list-style-type: none;
+    margin-top: 100px;
+ }
+
+ .courses li{
+    list-style-type:circle;
+    padding: 10 px;
+ }
+ .courses a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px
+ }
+
+ .courses ul li :hover{
+    color: aqua;
+    border: 1px solid #000042;
+    background-color: #000042;
+    transition:0.5s;
+    border-radius: 5px;
+
+ }
+
+ .btn{
+    background-color: #000042 !important;
+   
+
+ }
+ 
+
+
+ /* home page */
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        section{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background:  #000042;
+            overflow: hidden;
+        }
+
+        section .wave{
+            position: absolute;
+            bottom: 0;
+            left:0;
+            width: 100%;
+            height: 100px;
+            background: url(wave.png);
+            background-size: 1000px 100px;
+        }
+
+        section .wave.wave1{
+            animation: animate 30s linear infinite;
+            z-index: 1000;
+            opacity: 1;
+            animation-delay: 0s;
+            bottom: 0;
+        }
+        @keyframes animate{
+            0% {
+                background-position-x: 0;
+            }
+
+            100% {
+                background-position-x: 1000px;
+            }
+        }
+
+        .main{
+            display: flex;
+            justify-content: center;
+        }
+
+        .image > img{
+          margin-top: 100px;
+        }
+        #lbtn{
+            margin-left: 510px;
+           background-color: #af1919;
+           width: 125px;
+           height: 40px;
+           border-radius: 10px;
+           border: none;
+           font-weight: bold;
+           margin-top: 10px;
+           color: white;
+
+
+
+        }
+        #lbtn a{
+            text-decoration: none;
+        }
+        #lbtn:hover{
+            background-color: white;
+            color:  #000042;
+            transition: 0.5s smooth;
+    
+        }
+       
